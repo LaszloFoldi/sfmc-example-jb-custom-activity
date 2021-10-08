@@ -45,7 +45,7 @@ Example of a Rest Decision Split where your application tells the contact which 
 
 [RestDecision Documentation](https://developer.salesforce.com/docs/atlas.en-us.mc-app-development.meta/mc-app-development/extending-activities.htm)
 
-### Timeout, Retry and Concurrent Execute of Requests:
+### Timeout, Retry and Concurrent Execute of Requests
 We support the following execution parameters that allow you to configure the timeout and retry values Journey Builder should use when sending a request to the external web service that the custom activity will invoke. 
 
 It is possible to configure these values for each instance of a custom activity. Use config.js to show the
