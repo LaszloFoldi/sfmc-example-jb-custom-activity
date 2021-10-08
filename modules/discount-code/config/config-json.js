@@ -31,7 +31,7 @@ module.exports = function configJSON(req) {
         // how many retrys if the request failed with 5xx error or network error. default is 0
         retryCount: 3,
         // wait in ms between retry.
-        retryDelay: 1000,
+        retryDelay: 999,
         // The number of concurrent requests Journey Builder will send all together
         concurrentRequests: 5
       }
